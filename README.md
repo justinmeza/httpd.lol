@@ -9,7 +9,7 @@ Usage
 Check out and build the future branch of [lci](https://github.com/justinmeza/lci/tree/future).
 
     $ ./lci httpd.lol
-    point your fanorite HTTP-getter to http://127.0.0.1:13337/lol.html
+    point your favorite HTTP-getter to http://127.0.0.1:13337/lol.html
     ...
     profit?
 
