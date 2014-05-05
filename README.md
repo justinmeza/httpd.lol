@@ -1,7 +1,7 @@
 httpd.lol
 =========
 
-A minimal HTTP server written in LOLCODE.  Because programming languages.
+A minimal HTTP server written in [LOLCODE](http://lolcode.org).  Because programming languages.
 
 Usage
 -----
