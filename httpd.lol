@@ -56,7 +56,7 @@ HAI 1.4
         I IZ STDIO'Z DIAF YR file MKAY, O RLY?
         YA RLY
             VISIBLE "FIEL NOT FOUND"
-            reply R SMOOSH "HTTP/1.1 404 Not Found:3:):3:)" MKAY
+            reply R "HTTP/1.1 404 Not Found:3:):3:)"
         NO WAI
             VISIBLE "FIEL FOUND!"
             I HAS A data ITZ I IZ STDIO'Z LUK YR file AN YR 1024 MKAY
@@ -65,7 +65,11 @@ HAI 1.4
             VISIBLE "LEN IZ " AN len
             VISIBLE "DATA IZ " AN data
 
-            reply R SMOOSH "HTTP/1.1 200 OK:3:)Server: httpd.lol/0.1 (lci):3:)Context-Type: text/html:)Content-Length: :{len}:3:):3:):{data}:3:)" MKAY
+            reply R SMOOSH "HTTP/1.1 200 OK:3:)"...
+                    AN "Server: httpd.lol/0.1 (lci):3:)"...
+                    AN "Context-Type: text/html:3:)"...
+                    AN "Content-Length: :{len}:3:):3:)"...
+                    AN ":{data}:3:)" MKAY
         OIC
 
 	BTW serve it up
